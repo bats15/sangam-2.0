@@ -1,0 +1,117 @@
+.page2-container {
+  background-color: black;
+  color: white;
+  padding: 3rem 2rem;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.latest-editions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 4rem;
+}
+
+.edition-cards {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.card {
+  position: relative;
+  width: 150px;
+  height: 200px;
+  background-color: white;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.badge {
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  background: white;
+  color: #000;
+  border-radius: 50%;
+  padding: 0.4rem;
+  font-size: 1.2rem;
+  border: 3px solid #002244;
+}
+
+.edition-title {
+  text-align: right;
+}
+
+.edition-title h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.edition-title hr {
+  height: 90%;
+  width: 3px;
+  background-color: white;
+  border: none;
+  margin-bottom: 1rem;
+}
+
+.founder-note {
+  display: flex;
+  gap: 3rem;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  border-top: 2px solid white;
+  padding-top: 2rem;
+}
+
+.founder-title h2 {
+  font-size: 2.5rem;
+  color: #00aaff;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.founder-title em {
+  font-style: italic;
+  color: white;
+}
+
+.founder-text {
+  max-width: 700px;
+  line-height: 1.6;
+  font-size: 1rem;
+  color: #ddd;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .latest-editions {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .edition-title {
+    text-align: center;
+    margin-top: 2rem;
+  }
+
+  .founder-note {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .founder-title h2 {
+    font-size: 2rem;
+  }
+
+  .founder-text {
+    font-size: 0.95rem;
+  }
+}
