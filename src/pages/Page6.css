@@ -45,16 +45,13 @@
   transition: background-color 0.2s ease;
   word-wrap: break-word;
   cursor: pointer;
+  width: 50%;
 }
 
 .article-button:hover {
   background-color: #1c8de4;
 }
 
-.article-button.active {
-  border: 2px solid #913dff;
-  color: white;
-}
 
 .social-icons {
   display: flex;

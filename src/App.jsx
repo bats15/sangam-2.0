@@ -22,7 +22,7 @@ export default function App() {
       <Page6 />
       <Page7 />
       <Page8 />
-      <SocialIcons />
+      {/* <SocialIcons /> */}
     </>
   );
 }

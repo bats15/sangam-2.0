@@ -13,10 +13,10 @@ export default function Page4() {
       </div>
 
       <div className="gallery-strip">
-        <img src="/gallery/1.png" alt="img1" />
-        <img src="/gallery/2.png" alt="img2" />
-        <img src="/gallery/3.png" alt="img3" />
-        <img src="/gallery/4.png" alt="img4" />
+        <img src="/photos/photo3.jpg" alt="img1" />
+        <img src="/photos/photo7.jpg" alt="img2" />
+        <img src="/photos/photo1.jpg" alt="img3" />
+        <img src="/photos/photo4.jpg" alt="img4" />
       </div>
 
       <div className="footer-section">

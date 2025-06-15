@@ -9,14 +9,5 @@
   z-index: 1000;
 }
 
-.social-icons a {
-  color: white;
-  font-size: 1.8rem;
-  background-color: #000;
-  padding: 0.6rem;
-  border-radius: 50%;
-}
 
-.social-icons a:hover {
-  background-color: #27a9ff;
-}
+
