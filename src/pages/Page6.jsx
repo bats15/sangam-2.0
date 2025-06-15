@@ -16,12 +16,6 @@ export default function Page6() {
           <div className="article-button"></div>
         </div>
       </div>
-
-      <div className="social-icons">
-        <img src="/icons/instagram.svg" alt="Instagram" />
-        <img src="/icons/linkedin.svg" alt="LinkedIn" />
-        <img src="/icons/email.svg" alt="Email" />
-      </div>
     </div>
   );
 }
