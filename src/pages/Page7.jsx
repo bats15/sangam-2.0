@@ -3,9 +3,9 @@ import "../pages/Page7.css";
 
 export default function Page7() {
   const issues = [
-    { edition: "Edition 1", title: "Jammu", image: "/coverimg/1.png", link: "https://drive.google.com/file/d/14QHWai3TThfwvnxY4GKDNmeTgSc7LfHj/" },
-    { edition: "Edition 2", title: "Fest" , image: "/coverimg/2.png", link: "https://example.com/issue2" },
-    { edition: "Edition 3", title: "Mental Health", image: "/coverimg/3.png", link: "https://example.com/issue3" },
+    { edition: "Edition 1", title: "Jammu", image: "/coverimg/1.png", link: "https://drive.google.com/file/d/14QHWai3TThfwvnxY4GKDNmeTgSc7LfHj/view?usp=sharing" },
+    { edition: "Edition 2", title: "Fest" , image: "/coverimg/2.png", link: "https://drive.google.com/file/d/1SvhEd9f3gVrqaSVaV4IGCQ13wr0UQIiT/view?usp=sharing" },
+    { edition: "Edition 3", title: "Mental Health", image: "/coverimg/3.png", link: "https://drive.google.com/file/d/1UAW_r1v-YG-qIBlnefw7ef7s0GhJ8uAB/view?usp=sharing" },
   ];
 
   return (
@@ -19,7 +19,7 @@ export default function Page7() {
         {issues.map((issue, index) => (
           <div className="issue-card" key={index}>
             <div className="image-placeholder">
-              <a href={issue.link}><img src={issue.image} alt={`Issue ${index + 1}`} className="issue-image" /></a>
+              <a href={issue.link} target="_blank" rel="noopener noreferrer"><img src={issue.image} alt={`Issue ${index + 1}`} className="issue-image" /></a>
             </div>
             <div className="issue-button">
               <span>{issue.edition}</span><br />
