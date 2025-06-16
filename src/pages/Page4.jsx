@@ -1,7 +1,26 @@
-import React from "react";
+import React, { useState } from "react";
 import "../pages/Page4.css";
 
 export default function Page4() {
+  const images = [];
+  for (let i = 2; i <= 16; i++) {
+    images.push(`/photos/photo${i}.jpg`);
+  }
+
+  const [index, setIndex] = useState(0);
+
+  const prevSlide = () => {
+    setIndex((index - 1 + images.length) % images.length);
+  };
+
+  const nextSlide = () => {
+    setIndex((index + 1) % images.length);
+  };
+
+  const getImage = (offset) => {
+    return images[(index + offset + images.length) % images.length];
+  };
+
   return (
     <div className="page4-container" id="contact">
       <div className="submit-section">
@@ -9,14 +28,19 @@ export default function Page4() {
       </div>
 
       <div className="gallery-header">
-        <h3>PHOTO GALLERY <span className="view-all">VIEW ALL &gt;</span></h3>
+        <h3>PHOTO GALLERY</h3>
       </div>
 
-      <div className="gallery-strip">
-        <img src="/photos/photo3.jpg" alt="img1" />
-        <img src="/photos/photo7.jpg" alt="img2" />
-        <img src="/photos/photo1.jpg" alt="img3" />
-        <img src="/photos/photo4.jpg" alt="img4" />
+      <div className="slideshow-controls">
+        <button onClick={prevSlide} className="nav-button">←</button>
+
+        <div className="gallery-strip">
+          <img src={getImage(-1)} alt="left" className="gallery-side" />
+          <img src={getImage(0)} alt="center" className="gallery-center" />
+          <img src={getImage(1)} alt="right" className="gallery-side" />
+        </div>
+
+        <button onClick={nextSlide} className="nav-button">→</button>
       </div>
 
       <div className="footer-section">

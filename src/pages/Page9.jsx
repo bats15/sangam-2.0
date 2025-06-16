@@ -9,7 +9,7 @@ export default function ReadersDesk() {
         <div className="underline" />
 
         <div className="reader-buttons">
-          <button>VADA PAV</button>
+          <button></button>
           <button></button>
           <button></button>
           <button></button>
