@@ -3,7 +3,7 @@ import './Page5.css';
 
 const Page5 = () => {
   return (
-    <div className="page5-container">
+    <div className="page5-container" id="about">
       <div className="about-section">
         <h1 className="about-title">ABOUT</h1>
         <div className="about-underline"></div>

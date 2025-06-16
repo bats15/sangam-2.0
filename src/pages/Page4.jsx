@@ -3,7 +3,7 @@ import "../pages/Page4.css";
 
 export default function Page4() {
   return (
-    <div className="page4-container">
+    <div className="page4-container" id="contact">
       <div className="submit-section">
         <button className="submit-button">SUBMIT YOUR WORK</button>
       </div>

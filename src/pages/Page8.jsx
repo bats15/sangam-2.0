@@ -21,7 +21,7 @@ export default function Page8() {
   ];
 
   return (
-    <div className="page8-container">
+    <div className="page8-container" id="team">
       <div className="team-header">
         <h1>TEAM</h1>
         <hr className="underline" />

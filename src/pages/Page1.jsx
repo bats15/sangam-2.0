@@ -4,7 +4,7 @@ import "./Page1.css";
 
 export default function Page1() {
   return (
-    <div className="container">
+    <div className="container" id="home">
       <Navbar />
       <div className="overlay" />
 

@@ -3,7 +3,7 @@ import "../pages/Page2.css";
 
 export default function Page2() {
   return (
-    <div className="page2-container">
+    <div className="page2-container" id="Founder-note">
       <section className="latest-editions">
         <div className="edition-cards">
           <div className="card">
