@@ -3,3 +3,10 @@ main{
   margin: 0;
   scroll-behavior: smooth;
 }
+/* hide scrollbar */
+* {
+  scrollbar-width: none; /* Firefox */
+}
+*::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, and Opera */
+}

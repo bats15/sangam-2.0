@@ -8,6 +8,7 @@
   display: flex;
   justify-content: center;
   padding: 3rem 0;
+  background-color: #000000;
 }
 
 .submit-button {

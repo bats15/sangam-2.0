@@ -23,9 +23,6 @@ export default function Page4() {
 
   return (
     <div className="page4-container" id="contact">
-      <div className="submit-section">
-        <button className="submit-button">SUBMIT YOUR WORK</button>
-      </div>
 
       <div className="gallery-header">
         <h3>PHOTO GALLERY</h3>

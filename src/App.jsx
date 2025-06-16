@@ -10,7 +10,7 @@ import Page7 from "./pages/Page7";
 import Page8 from "./pages/Page8";
 import Page9 from "./pages/Page9";
 import SocialIcons from "./components/SocialIcons";
-
+import Submit from "./pages/Submit";
 
 export default function App() {
   return (
@@ -22,6 +22,7 @@ export default function App() {
       <Page6 />
       <Page7 />
       <Page9 />
+      <Submit/>
       <Page8 />
       <Page4 />
       <SocialIcons />
