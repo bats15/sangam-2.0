@@ -3,10 +3,9 @@ import "../pages/Page7.css";
 
 export default function Page7() {
   const issues = [
-    { edition: "Edition 1", title: "Jammu" },
-    { edition: "Edition 2", title: "Fest" },
-    { edition: "Edition 3", title: "Mental Health" },
-    { edition: "Edition 4", title: "Cinema" },
+    { edition: "Edition 1", title: "Jammu", image: "/coverimg/1.png", link: "https://example.com/issue1" },
+    { edition: "Edition 2", title: "Fest" , image: "/coverimg/2.png", link: "https://example.com/issue2" },
+    { edition: "Edition 3", title: "Mental Health", image: "/coverimg/3.png", link: "https://example.com/issue3" },
   ];
 
   return (
@@ -19,7 +18,9 @@ export default function Page7() {
       <div className="issue-grid">
         {issues.map((issue, index) => (
           <div className="issue-card" key={index}>
-            <div className="image-placeholder"></div>
+            <div className="image-placeholder">
+              <a href={issue.link}><img src={issue.image} alt={`Issue ${index + 1}`} className="issue-image" /></a>
+            </div>
             <div className="issue-button">
               <span>{issue.edition}</span><br />
               <span>{issue.title}</span>

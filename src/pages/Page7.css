@@ -34,23 +34,29 @@
 .issue-grid {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  gap: 2rem;
+  justify-content: space-evenly;
+  gap: 1rem;
   margin-top: 2rem;
+  width: 100%;
 }
 
 .issue-card {
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 180px;
 }
 
 /* ⬜️ Placeholder for future images */
 .image-placeholder {
   width: 100%;
-  height: 240px;
+  height: 350px;
   background-color: grey;
+  border-radius: 6px;
+}
+.image-placeholder img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
   border-radius: 6px;
 }
 

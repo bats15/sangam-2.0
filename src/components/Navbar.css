@@ -12,6 +12,11 @@
   font-size: 2rem;
   font-weight: bold;
 }
+.logo img{
+  width: 50px;
+  height: 50px;
+  vertical-align: middle;
+}
 
 .nav-links {
   list-style: none;
