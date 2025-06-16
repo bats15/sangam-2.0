@@ -23,8 +23,8 @@
 
 .about-underline {
   height: 4px;
-  width: 10rem;
-  background-color: #a066f7;
+  width: 12rem;
+  background-color:#3fbfff;
   margin-bottom: 2rem;
 }
 
@@ -54,7 +54,6 @@
   transform: scale(1.1);
 }
 
-/* Responsive design */
 @media screen and (max-width: 768px) {
   .page5-container {
     flex-direction: column;
@@ -71,9 +70,6 @@
     font-size: 3rem;
   }
 
-  .about-underline {
-    margin: 0 auto 2rem auto;
-  }
 
   .social-icons {
     flex-direction: row;

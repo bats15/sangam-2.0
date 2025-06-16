@@ -1,0 +1,117 @@
+.readers-container {
+  background-color: #000;
+  color: white;
+  min-height: 100vh;
+  padding: 4rem;
+  position: relative;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.readers-left {
+  max-width: 500px;
+}
+
+.readers-left h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.underline {
+  height: 5px;
+  width: 180px;
+  background-color: #27a9ff;
+  margin-bottom: 2rem;
+}
+
+.reader-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.reader-buttons button {
+  background-color: #27a9ff;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 50px;
+  text-align: left;
+  width: 100%;
+  max-width: 450px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.reader-buttons button:hover {
+  background-color: #1c8de4;
+}
+
+.social-icons {
+  position: absolute;
+  top: 50%;
+  right: 2rem;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.social-icons img {
+  width: 36px;
+  height: 36px;
+  filter: brightness(100%);
+}
+
+
+@media (max-width: 768px) {
+  .readers-container {
+    padding: 2rem;
+  }
+
+  .readers-left h1 {
+    font-size: 2.2rem;
+  }
+
+  .reader-buttons button {
+    font-size: 1rem;
+    padding: 0.9rem 1.5rem;
+  }
+
+  .social-icons {
+    right: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .readers-container {
+    padding: 1.5rem 1rem;
+  }
+
+  .readers-left h1 {
+    font-size: 1.8rem;
+  }
+
+  .underline {
+    width: 120px;
+  }
+
+  .reader-buttons button {
+    font-size: 0.9rem;
+    padding: 0.8rem 1rem;
+  }
+
+  .social-icons {
+    position: static;
+    margin-top: 2rem;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .social-icons img {
+    width: 28px;
+    height: 28px;
+  }
+}

@@ -8,6 +8,7 @@ import Page5 from "./pages/Page5";
 import Page6 from "./pages/Page6";
 import Page7 from "./pages/Page7";
 import Page8 from "./pages/Page8";
+import Page9 from "./pages/Page9";
 import SocialIcons from "./components/SocialIcons";
 
 
@@ -22,6 +23,7 @@ export default function App() {
       <Page6 />
       <Page7 />
       <Page8 />
+      <Page9 />
       <SocialIcons />
     </>
   );

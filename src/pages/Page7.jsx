@@ -12,8 +12,8 @@ export default function Page7() {
   return (
     <div className="page7-container">
       <div className="magazine-header">
-        <h1>MAGAZINE ISSUES</h1>
-        <hr className="underline" />
+        <h1 className="magazine-title">MAGAZINE ISSUES</h1>
+        <hr className="magazine-underline" />
       </div>
 
       <div className="issue-grid">

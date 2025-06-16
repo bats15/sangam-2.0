@@ -11,6 +11,8 @@
 .team-header {
   text-align: center;
   margin-bottom: 3rem;
+  color: #3fbfff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .team-header h1 {
