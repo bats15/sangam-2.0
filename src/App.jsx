@@ -23,7 +23,6 @@ export default function App() {
       <Page7 />
       <Page9 />
       <Submit/>
-      <Page8 />
       <Page4 />
       <SocialIcons />
     </>
