@@ -6,7 +6,7 @@ export default function Page1() {
   return (
     <div className="container" id="home">
       <Navbar />
-      <div className="overlay" />
+      <div className="cover--">
 
       <main className="content">
         <p className="welcome">
@@ -18,6 +18,10 @@ export default function Page1() {
           The official voice of IIT Jammu — where ideas converge, stories inspire, and student creativity takes center stage.
         </p>
       </main>
+      <div className="img">
+      </div>
+      </div>
+
     </div>
   );
 }

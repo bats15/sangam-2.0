@@ -17,11 +17,11 @@
   margin-bottom: 0.5rem;
 }
 
-.underline {
+.underline1 {
   height: 5px;
-  width: 180px;
+  width: 21em;
   background-color: #27a9ff;
-  margin-bottom: 2rem;
+  margin: 0.5rem 0 2em 0;
 }
 
 .reader-buttons {

@@ -25,6 +25,9 @@ export default function Page2() {
       <section className="founder-note">
         <div className="founder-title">
           <h2>FOUNDER’S <br /> <span>NOTE</span></h2>
+          <div className="kc-img-container">
+            <img src="" alt="" />
+          </div>
           <p><em>KANISHKA CHHOLAK</em></p>
         </div>
         <div className="founder-text">

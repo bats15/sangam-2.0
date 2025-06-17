@@ -11,7 +11,7 @@
 .team-header {
   text-align: center;
   margin-bottom: 3rem;
-  color: #3fbfff;
+  color: #ffffff;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -20,12 +20,12 @@
   font-weight: 800;
 }
 
-.underline {
+.underline1 {
   width: 130px;
   height: 3px;
   background-color: #27a9ff;
   border: none;
-  margin: 0.5rem auto 0;
+  margin:-1.75em auto;
 }
 
 .team-grid {
