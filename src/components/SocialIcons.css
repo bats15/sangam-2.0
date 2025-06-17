@@ -1,4 +1,4 @@
-.social-icons {
+.social-icons1 {
   position: fixed;
   top: 50%;
   right: 1rem;
@@ -9,12 +9,16 @@
   z-index: 100;
 }
 
-.social-icons a{
-  padding: 0.5em;
+.social-icons1 a{
+  display: flex;
+  padding: 0em;
+  width: 2.5rem;
+  justify-content: center;
+  align-items: center;
 }
 
-.social-icons a img {
-  padding: 0;
+.social-icons1 a img {
+  width: 100%;
+  filter: invert(1);
 }
-
 
