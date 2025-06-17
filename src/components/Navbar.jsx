@@ -1,6 +1,6 @@
 import React from "react";
 import "./Navbar.css";
-
+import Page8 from '../pages/Page8'
 export default function Navbar() {
   const scrollToSection = (id) => {
     const el = document.getElementById(id);
@@ -20,7 +20,7 @@ export default function Navbar() {
         <li><a onClick={() => scrollToSection('about')}>ABOUT</a></li>
         <li><a onClick={() => scrollToSection('cover-stories')}>COVER STORIES</a></li>
         <li><a onClick={() => scrollToSection('magazine-issues')}>MAGAZINE ISSUES</a></li>
-        <li><a onClick={() => scrollToSection('team')}>TEAM</a></li>
+        <li><a href="/Page8">TEAM</a></li>
         <li><a onClick={() => scrollToSection('contact')}>CONTACT US</a></li>
       </ul>
     </nav>

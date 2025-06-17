@@ -4,6 +4,6 @@ import './Page4.css'
 export default function Submit(){
     return(
     <div className="submit-section">
-        <button className="submit-button">SUBMIT YOUR WORK</button>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSe4HYhbi2VPeJFd25yNfU8nQIGKWgTAcIpIvLRxlCKYbjKGVA/viewform"><button className="submit-button">SUBMIT YOUR WORK</button></a>
     </div>)
 }

@@ -7,16 +7,13 @@ export default function Page2() {
       <section className="latest-editions">
         <div className="edition-cards">
           <div className="card">
-            <img src="/coverimg/1.png" alt="Edition" />
-            <div className="badge">🎓</div>
+            <img src="" alt="" />
           </div>
           <div className="card">
-            <img src="/coverimg/2.png" alt="Edition" />
-            <div className="badge">🎓</div>
+            <img src="" alt="" />
           </div>
           <div className="card">
-            <img src="/coverimg/3.png" alt="Edition" />
-            <div className="badge">🎓</div>
+            <img src="" alt="" />
           </div>
         </div>
         <div className="edition-title">
