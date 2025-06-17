@@ -1,4 +1,5 @@
 import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
 import Page1 from "./pages/Page1";
 import Page2 from "./pages/Page2";
@@ -12,7 +13,7 @@ import Page9 from "./pages/Page9";
 import SocialIcons from "./components/SocialIcons";
 import Submit from "./pages/Submit";
 
-export default function App() {
+function HomePage() {
   return (
     <>
       <Page1 />
@@ -22,9 +23,21 @@ export default function App() {
       <Page6 />
       <Page7 />
       <Page9 />
-      <Submit/>
+      <Submit />
       <Page4 />
       <SocialIcons />
     </>
+  );
+}
+
+export default function App() {
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/Page8" element={<Page8 />} />
+
+      </Routes>
+    </Router>
   );
 }

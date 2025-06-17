@@ -1,6 +1,5 @@
 import React from "react";
 import "../pages/Page8.css";
-import { useState } from "react";
 
 export default function Page8() {
   const team = [
@@ -78,27 +77,6 @@ export default function Page8() {
     }
   ]
 
-  const [currentIndex, setCurrentIndex] = useState(2); // center starts at index 2
-
-  const goLeft = () => {
-    if (currentIndex > 0) {
-      setCurrentIndex(currentIndex - 1);
-    }
-  }
-  const goRight = () => {
-    if (currentIndex < juniorTeam.length - 1) {
-      setCurrentIndex(currentIndex + 1)
-    }
-  }
-
-  const getVisibleImages = () => {
-  return [
-    juniorTeam[currentIndex - 1],
-    juniorTeam[currentIndex],
-    juniorTeam[currentIndex + 1],
-  ].filter(member => member !== undefined);
-};
-
   return (
     <div className="page8-container" id="team">
       <div className="team-header">
@@ -121,22 +99,20 @@ export default function Page8() {
         ))}
       </div>
       <div className="junior-team">
-        <button onClick={goLeft} disabled={currentIndex === 0}>&lt;</button>
         <div className="junior-team-row">
-          {getVisibleImages().map((team, index) => (
-            <div className="team-member" key={index}>
-              <div className="team-image-placeholder">
+          {juniorTeam.map((member, index)=>(
+            <div className="junior-team-member" key={index}>
+              <div className="junior-team-image-placeholder">
                 <img src="" alt="" />
               </div>
               <div className="team-info">
-                <p>{team.name}</p>
-                <p>{team.id}</p>
-                <p>{team.role}</p>
+                <p>{member.name}</p>
+                <p>{member.id}</p>
+                <p>{member.role}</p>
               </div>
             </div>
           ))}
         </div>
-        <button onClick={goRight} disabled={currentIndex === juniorTeam.length - 1}>&gt;</button>
       </div>
     </div>
   );
