@@ -5,7 +5,7 @@ import "./Page1.css";
 export default function Page1() {
   return (
     <div className="container" id="home">
-      <Navbar />
+      <Navbar/>
       <div className="cover--">
 
       <main className="content">

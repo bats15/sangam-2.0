@@ -8,10 +8,10 @@ import Page4 from "./pages/Page4";
 import Page5 from "./pages/Page5";
 import Page6 from "./pages/Page6";
 import Page7 from "./pages/Page7";
-import Page8 from "./pages/Page8";
 import Page9 from "./pages/Page9";
 import SocialIcons from "./components/SocialIcons";
 import Submit from "./pages/Submit";
+import Team from './pages/Team'
 
 function HomePage() {
   return (
@@ -35,7 +35,7 @@ export default function App() {
     <Router>
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/Page8" element={<Page8 />} />
+        <Route path="/Team" element={<Team />} />
 
       </Routes>
     </Router>

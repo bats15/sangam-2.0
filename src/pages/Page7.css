@@ -30,6 +30,16 @@
   margin-bottom: 2rem;
   border:none;
 }
+@media screen and (max-width: 768px) {
+  .magazine-title {
+    font-size: 2.5rem;
+  }
+
+  .magazine-underline {
+    width: 20rem;
+  }
+  
+}
 
 .issue-grid {
   display: flex;

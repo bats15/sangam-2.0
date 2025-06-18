@@ -1,15 +1,19 @@
 .container {
-  background: url('/your-team-image.jpg') center/cover no-repeat;
-  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.586), rgba(0, 0, 0, 0.928)),
+              url('/assets/team.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: darken;
   color: white;
   position: relative;
   overflow: hidden;
   font-family: 'Segoe UI', sans-serif;
-  background-color: black;
 }
+
 .cover--{
   display: flex;
   align-items: center;
+  height: 90vh;
 }
 .cover-- img {
   width: 40%;
@@ -21,7 +25,6 @@
   position: relative;
   z-index: 2;
   padding-left: 3rem;
-  margin-top: 8rem;
   max-width: 700px;
 }
 
