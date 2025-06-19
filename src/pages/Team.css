@@ -1,3 +1,7 @@
+.team-founder-container{
+    background-color: black;
+}
+
 .page-buttons{
     display: flex;
     justify-content: space-evenly;
