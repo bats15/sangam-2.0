@@ -13,14 +13,20 @@
     padding: 1em;
 }
 .main-contents-10 h1{
-    width: 100%;
-    display: flex;
-    font-size: 2.5rem;
-    color: #3fbfff;
-    font-style: normal;
+    font-size: 3.5rem;
+    margin: 1.5em 0 0 0;
+    color: #ffffff;
+    text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: 0;
-    font-size: 3rem;
+    font-weight: bold;
+    font-style: normal;
+}
+.founding-line{
+    width: 25%;
+    height: 4px;
+    background-color: #27a9ff;
+    margin: 0.3em 0 1em 0;
+    border: none;
 }
 .image-placeholder-1{
     height: 150px;

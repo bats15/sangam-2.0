@@ -26,7 +26,8 @@ export default function Founders(){
   ];
     return(
         <div className="main-contents-10">
-            <h1>Founding Team</h1>
+            <h1>FOUNDING TEAM</h1>
+            <hr className='founding-line'/>
             {founders.map((person, index) => (
                 <div className="founding-member" key={index}>
                     <div className="image-placeholder-1">

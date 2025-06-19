@@ -81,7 +81,7 @@ export default function Page8() {
     <div className="page8-container" id="team">
       <div className="team-header">
         <h1>TEAM</h1>
-        <hr className="underline1" />
+        <hr className="underline11" />
       </div>
 
       <div className="team-grid">

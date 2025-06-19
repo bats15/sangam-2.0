@@ -10,7 +10,7 @@ export default function Team() {
         <main className="team-founder-container">
             <div className="page-buttons">
                 <button onClick={() => setTeamVisible(true)}>Team</button>
-                <button onClick={() => setTeamVisible(false)}>Founders</button>
+                <button onClick={() => setTeamVisible(false)}>Founding Team</button>
             </div>
 
             {teamVisible ? <Page8 /> : <Founders />}
