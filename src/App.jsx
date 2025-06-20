@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import ClipLoader from "react-spinners/HashLoader";
 import "./App.css";
 import Page1 from "./pages/Page1";
 import Page2 from "./pages/Page2";
@@ -9,9 +10,9 @@ import Page5 from "./pages/Page5";
 import Page6 from "./pages/Page6";
 import Page7 from "./pages/Page7";
 import Page9 from "./pages/Page9";
-import SocialIcons from "./components/SocialIcons";
 import Submit from "./pages/Submit";
-import Team from './pages/Team'
+import SocialIcons from "./components/SocialIcons";
+import Team from "./pages/Team";
 
 function HomePage() {
   return (
@@ -31,12 +32,28 @@ function HomePage() {
 }
 
 export default function App() {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 3000);
+    return () => clearTimeout(timer);
+  }, []);
+
+  if (loading) {
+    return (
+      <div className="loading-screen">
+        <ClipLoader color="#3fbfff" size={50} className="loader"/>
+      </div>
+    );
+  }
+
   return (
     <Router>
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/Team" element={<Team />} />
-
       </Routes>
     </Router>
   );
