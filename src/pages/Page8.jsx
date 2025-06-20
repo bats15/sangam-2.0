@@ -84,7 +84,7 @@ export default function Page8() {
         <hr className="underline11" /> */}
       </div>
 
-      <div className="team-grid">
+      {/* <div className="team-grid">
         {team.map((member, index) => (
           <div className="team-member" key={index}>
             <div className="team-image-placeholder">
@@ -97,7 +97,7 @@ export default function Page8() {
             </div>
           </div>
         ))}
-      </div>
+      </div> */}
       <div className="junior-team">
         <div className="junior-team-row">
           {juniorTeam.map((member, index)=>(

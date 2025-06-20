@@ -20,16 +20,30 @@ export default function Founders(){
       "name": "Rohit Khatri",
       "role": "Head of Designing",
       "id": "2023uch0012",
-      "img" : "",
+      "img" : "0",
       "para": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis nostrum illum quasi eligendi aut. Tempora eveniet quidem fuga iusto deserunt laudantium, eius placeat necessitatibus temporibus quaerat officia. Sint cupiditate quidem ipsam, tenetur exercitationem enim, assumenda perspiciatis ad saepe, explicabo eius sequi alias. Tempore sapiente repellat eaque corporis eius, dolorem earum minima nihil. Cum vel delectus repudiandae!"
     },
+    {
+      "name": "Bhoomi",
+      "role": "",
+      "id" : "10",
+      "img" : "",
+      "para" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis nostrum illum quasi eligendi aut. Tempora eveniet quidem fuga iusto deserunt laudantium, eius placeat necessitatibus temporibus quaerat officia. Sint cupiditate quidem ipsam, tenetur exercitationem enim, assumenda perspiciatis ad saepe, explicabo eius sequi alias. Tempore sapiente repellat eaque corporis eius, dolorem earum minima nihil. Cum vel delectus repudiandae!"
+    },
+    {
+      "name" : "Anirudh",
+      "role" : "",
+      "id" : "2",
+      "img" : "",
+      "para" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis nostrum illum quasi eligendi aut. Tempora eveniet quidem fuga iusto deserunt laudantium, eius placeat necessitatibus temporibus quaerat officia. Sint cupiditate quidem ipsam, tenetur exercitationem enim, assumenda perspiciatis ad saepe, explicabo eius sequi alias. Tempore sapiente repellat eaque corporis eius, dolorem earum minima nihil. Cum vel delectus repudiandae!"
+    }
   ];
     return(
         <div className="main-contents-10">
             {/* <h1>FOUNDING TEAM</h1> */}
             {/* <hr className='founding-line'/> */}
-            {founders.map((person, index) => (
-                <div className="founding-member" key={index}>
+            {founders.map((person) => (
+                <div className="founding-member" key={person.id}>
                     <div className="image-placeholder-1">
                         <img src={person.img} alt="" />
                     </div>
