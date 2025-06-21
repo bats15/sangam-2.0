@@ -22,3 +22,8 @@
   filter: invert(1);
 }
 
+@media (max-width: 768px) {
+  .social-icons1 {
+    display: none;
+  }
+}
