@@ -13,12 +13,14 @@ import Page9 from "./pages/Page9";
 import Submit from "./pages/Submit";
 import SocialIcons from "./components/SocialIcons";
 import Team from "./pages/Team";
+import Fic from "./pages/Fic"
 
 function HomePage() {
   return (
     <>
       <Page1 />
       <Page2 />
+      <Fic/>
       <Page3 />
       <Page5 />
       <Page6 />
