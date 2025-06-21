@@ -66,6 +66,7 @@
   top: 1rem;
   right: 1rem;
   z-index: 15;
+  position: fixed;
 }
 .slideout li {
   margin: 2rem 0;
