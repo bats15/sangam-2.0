@@ -2,8 +2,18 @@ import React from "react";
 import "./Fic.css";
 
 const NoteFromFIC = () => {
+  const size = window.innerWidth
   return (
     <div className="fic-container">
+      {size <= 786 ? (
+        <div className="fic-right">
+          <div className="fic-box">
+            <h2>NOTE FROM</h2>
+            <h2>FIC</h2>
+            <p><em>Dr. Amitash Ojha</em></p>
+          </div>
+        </div>
+      ) : null}
       <div className="fic-left">
         <p>
           <em>Dear Readers,</em><br />
@@ -33,13 +43,15 @@ const NoteFromFIC = () => {
           </em>
         </p>
       </div>
-      <div className="fic-right">
-        <div className="fic-box">
-          <h2>NOTE FROM</h2>
-          <h2>FIC</h2>
-          <p><em>Dr. Amitash Ojha</em></p>
+      {size > 786 ? (
+        <div className="fic-right">
+          <div className="fic-box">
+            <h2>NOTE FROM</h2>
+            <h2>FIC</h2>
+            <p><em>Dr. Amitash Ojha</em></p>
+          </div>
         </div>
-      </div>
+      ) : null}
     </div>
   );
 };

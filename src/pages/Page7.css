@@ -30,16 +30,6 @@
   margin-bottom: 2rem;
   border:none;
 }
-@media screen and (max-width: 768px) {
-  .magazine-title {
-    font-size: 2.5rem;
-  }
-
-  .magazine-underline {
-    width: 20rem;
-  }
-  
-}
 
 .issue-grid {
   display: flex;
@@ -84,22 +74,15 @@
   line-height: 1.2rem;
 }
 
-/* 🔽 Responsive Design */
-@media screen and (max-width: 768px) {
-  .magazine-header h1 {
-    font-size: 2rem;
+@media (max-width: 768px) {
+  .page7-container {
+    padding: 2rem 2vw;
   }
 
-  .issue-grid {
-    flex-direction: column;
-    gap: 2.5rem;
+  .magazine-title {
+    font-size: 2.3rem;
   }
-
-  .issue-card {
-    max-width: 100%;
-  }
-
-  .image-placeholder {
-    height: 200px;
+  .magazine-header hr{
+    width: 21rem;
   }
 }
