@@ -80,3 +80,21 @@
     gap: 2rem;
   }
 }
+
+
+.read-more-button{
+  background-color: #3fbfff;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.5s, transform 0.2s;
+  margin: 1em;
+}
+.read-more-button:hover {
+  background-color: #ffffff;
+  color: #3fbfff;
+  transform: scale(1.1);
+}

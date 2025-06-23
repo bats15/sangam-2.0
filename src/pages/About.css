@@ -1,0 +1,17 @@
+.about-title1 {
+  color: #ffffff;
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.about-underline1 {
+  height: 4px;
+  width: 12rem;
+  background-color:#3fbfff;
+  margin-bottom: 2rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}

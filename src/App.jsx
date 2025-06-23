@@ -14,6 +14,7 @@ import Submit from "./pages/Submit";
 import SocialIcons from "./components/SocialIcons";
 import Team from "./pages/Team";
 import Fic from "./pages/Fic"
+import About from './pages/About'
 
 function HomePage() {
   return (
@@ -39,7 +40,7 @@ export default function App() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setLoading(false);
-    }, 3000);
+    }, 10);
     return () => clearTimeout(timer);
   }, []);
 
@@ -56,6 +57,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/Team" element={<Team />} />
+        <Route path="/about" element={<About />} />
       </Routes>
     </Router>
   );

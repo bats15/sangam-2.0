@@ -8,6 +8,7 @@
   position: relative;
   overflow: hidden;
   font-family: 'Segoe UI', sans-serif;
+  height: 100vh;
 }
 
 .cover--{

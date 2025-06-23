@@ -3,7 +3,7 @@ import "./Page9.css";
 
 export default function ReadersDesk() {
   return (
-    <div className="readers-container">
+    <div className="readers-container" id='reader'>
       <div className="readers-left">
         <h1>READERS’ DESK</h1>
         <div className="underline1" />

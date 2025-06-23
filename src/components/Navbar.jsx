@@ -26,6 +26,7 @@ export default function Navbar() {
             <li><a onClick={() => scrollToSection('about')}>ABOUT</a></li>
             <li><a onClick={() => scrollToSection('cover-stories')}>COVER STORIES</a></li>
             <li><a onClick={() => scrollToSection('magazine-issues')}>MAGAZINE ISSUES</a></li>
+            <li><a onClick={() => scrollToSection('reader')}>READER'S DESK</a></li>
             <li><a href="/Team" target="_blank" rel="noopener noreferrer">TEAM</a></li>
             <li><a onClick={() => scrollToSection('contact')}>CONTACT US</a></li>
           </ul>
