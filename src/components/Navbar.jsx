@@ -40,7 +40,7 @@ export default function Navbar() {
             <div className="sidebar-button">
               <button onClick={handleclick} id="lines--">{tag ? 'X' : '☰'}</button>
             </div>
-            <div className={`slideout ${tag? '': 'hidden'}`} id="slideout">
+            <div className={`slideout ${tag ? 'open' : ''}`} id="slideout">
               <ul className="nav-links-mobile">
                 <li><a onClick={() => scrollToSection('home')}>HOME</a></li>
                 <li><a onClick={() => scrollToSection('about')}>ABOUT</a></li>
