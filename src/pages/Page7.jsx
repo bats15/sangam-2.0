@@ -3,9 +3,9 @@ import "../pages/Page7.css";
 
 export default function Page7() {
   const issues = [
-    { edition: "Edition 1", title: "Jammu", image: "/coverimg/1.png", link: "https://drive.google.com/file/d/14QHWai3TThfwvnxY4GKDNmeTgSc7LfHj/view?usp=sharing" },
-    { edition: "Edition 2", title: "Fest" , image: "/coverimg/2.png", link: "https://drive.google.com/file/d/1SvhEd9f3gVrqaSVaV4IGCQ13wr0UQIiT/view?usp=sharing" },
-    { edition: "Edition 3", title: "Mental Health", image: "/coverimg/3.png", link: "https://drive.google.com/file/d/1UAW_r1v-YG-qIBlnefw7ef7s0GhJ8uAB/view?usp=sharing" },
+    { edition: "Edition 1", title: "Jammu", image: "/coverimg/1.png", link: "https://drive.google.com/file/d/1b_YVXwWkmyeGhLHEN1P81n7zh2-elOn9/view?usp=sharing" },
+    { edition: "Edition 2", title: "Fest" , image: "/coverimg/2.png", link: "https://drive.google.com/file/d/1bYhzKxfqzSHL8ppzguKq4k6yD9uTagmy/view?usp=sharing" },
+    { edition: "Edition 3", title: "Mental Health", image: "/coverimg/3.png", link: "https://drive.google.com/file/d/1bVEx0lV0BD7a0TqAfiDriqYdQYeF4Rsf/view?usp=sharing" },
   ];
 
   return (
