@@ -23,7 +23,7 @@ export default function Page8() {
     {
       "name": "Arshpreet Kaur",
       "role": "",
-      "id": "2024ucs0083"
+      "id": "2024UCS0083"
     },
     {
       "name": "Sparsh Dubey",
@@ -33,32 +33,32 @@ export default function Page8() {
     {
       "name": "Prashant Gautam",
       "role": "",
-      "id": "2024uma0219"
+      "id": "2024UMA0219"
     },
     {
       "name": "Devisha Patel",
       "role": "",
-      "id": "2024umt0165"
+      "id": "2024UMT0165"
     },
     {
       "name": "Sayani Neogi",
       "role": "",
-      "id": "2024uee0136"
+      "id": "2024UEE0136"
     },
     {
       "name": "Priyanshi Agarwal",
       "role": "",
-      "id": "2024ume0254"
+      "id": "2024UME0254"
     },
     {
       "name": "Ram Krishan Kunal",
       "role": "",
-      "id": "2024uee0128"
+      "id": "2024UEE0128"
     },
     {
       "name": "Sujeet Rai",
       "role": "",
-      "id": "2024uee0127"
+      "id": "2024UEE0127"
     },
     {
       "name": "Kovid Baid",
@@ -68,12 +68,12 @@ export default function Page8() {
     {
       "name": "Pariket Aludiya",
       "role": "",
-      "id": "2024ume0250"
+      "id": "2024UME0250"
     },
     {
       "name": "Basit Warsi",
       "role": "",
-      "id": "2024ucs0101"
+      "id": "2024UCS0101"
     }
   ]
 
@@ -103,7 +103,7 @@ export default function Page8() {
           {juniorTeam.map((member, index)=>(
             <div className="junior-team-member" key={index}>
               <div className="junior-team-image-placeholder">
-                <img src="" alt="" />
+                <img src={`/team/${member.id}.jpg`} alt="" />
               </div>
               <div className="team-info">
                 <p>{member.name}</p>

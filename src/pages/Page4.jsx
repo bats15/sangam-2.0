@@ -24,21 +24,25 @@ export default function Page4() {
   return (
     <div className="page4-container" id="contact">
 
-      <div className="gallery-header">
-        <h3>PHOTO GALLERY</h3>
-      </div>
-
-      <div className="slideshow-controls">
-        <button onClick={prevSlide} className="nav-button">←</button>
-
-        <div className="gallery-strip">
-          <img src={getImage(-1)} alt="left" className="gallery-side" />
-          <img src={getImage(0)} alt="center" className="gallery-center" />
-          <img src={getImage(1)} alt="right" className="gallery-side" />
-        </div>
-
-        <button onClick={nextSlide} className="nav-button">→</button>
-      </div>
+      {window.innerWidth > 1000 && (
+        <>
+          <div className="gallery-header">
+            <h3>PHOTO GALLERY</h3>
+          </div>
+  
+          <div className="slideshow-controls">
+            <button onClick={prevSlide} className="nav-button">←</button>
+  
+            <div className="gallery-strip">
+              <img src={getImage(-1)} alt="left" className="gallery-side" />
+              <img src={getImage(0)} alt="center" className="gallery-center" />
+              <img src={getImage(1)} alt="right" className="gallery-side" />
+            </div>
+  
+            <button onClick={nextSlide} className="nav-button">→</button>
+          </div>
+        </>
+      )}
 
       <div className="footer-section">
         <div className="qr-section">
@@ -56,8 +60,8 @@ export default function Page4() {
             Jagti, NH-44 , PO Nagrota <br />
             Jammu - 181 221 J&amp;K, India.
           </p>
-          <p className="contact-label">Welcome Contacts</p>
-          <div className="contact-bar" />
+          {/* <p className="contact-label">Welcome Contacts</p>
+          <div className="contact-bar" /> */}
         </div>
       </div>
     </div>
